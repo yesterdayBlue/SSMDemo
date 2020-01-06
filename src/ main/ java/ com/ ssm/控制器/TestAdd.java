@@ -22,11 +22,6 @@ public class TestAdd
         System.out.print(str);
     }
 
-    public static void writeLine(String line) 
-    {
-        System.out.println(line);
-    }
-
     public static void writeLine(int intNumber) 
     {
         writeLine(String.format("%02d", intNumber));
