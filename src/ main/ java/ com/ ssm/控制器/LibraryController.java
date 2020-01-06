@@ -35,8 +35,5 @@ public class LibraryController {
         bookServie.updateUid(book);
         return "借阅成功";
     }
-    public static void main(String[] args) {
-		System.out.println("ffff");
-	}
 
 }
